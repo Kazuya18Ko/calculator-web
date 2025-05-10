@@ -9,8 +9,19 @@
         <h1>calculator web application</h1>
 
         <!--input form (not write here yet.)-->
-        <form>
-            <!--write input fields and stuff later.-->
+        <form method="post" action="/calculate">
+            <input type="number" name="num1" required placeholder="num1">
+
+            <select name="operator">
+                <option value="+"></option>
+                <option value="-"></option>
+                <option value="*"></option>
+                <option value="/"></option>
+            </select>
+
+            <input type="number" name="num2" required placeholder="num2">
+
+            <button type="submit">calculate!!</button>
         </form>
     </body>
 </html>
