@@ -1,0 +1,24 @@
+# Gradle
+.gradle/
+build/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# VSCode
+.vscode/
+
+# OS・エディタの一時ファイル
+*.log
+*.class
+*.jar
+*.war
+*.ear
+.DS_Store
+Thumbs.db
+
+# 環境構築などで出る一時ファイル
+*.swp
+*~
